@@ -1,4 +1,4 @@
-# SNMP-Metric-Monitoring-System
+# SNMP Metric Monitoring System
 
 The SNMP Metric Monitoring System is a Python-based solution for monitoring device metrics and system information using SNMP (Simple Network Management Protocol). 
 The system consists of an SNMP server and SNMP clients, allowing you to monitor multiple devices and record the metrics at regular intervals.
