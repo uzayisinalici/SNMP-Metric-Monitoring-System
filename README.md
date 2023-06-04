@@ -50,6 +50,7 @@ Start the SNMP client by running the following command:
 # SHELL
 Copy code
 python client.py
+
 Repeat the above steps for each client you want to monitor.
 
 # Customization
