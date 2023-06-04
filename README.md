@@ -1,6 +1,7 @@
 # SNMP-Metric-Monitoring-System
 
-The SNMP Metric Monitoring System is a Python-based solution for monitoring device metrics and system information using SNMP (Simple Network Management Protocol). The system consists of an SNMP server and SNMP clients, allowing you to monitor multiple devices and record the metrics at regular intervals.
+The SNMP Metric Monitoring System is a Python-based solution for monitoring device metrics and system information using SNMP (Simple Network Management Protocol). 
+The system consists of an SNMP server and SNMP clients, allowing you to monitor multiple devices and record the metrics at regular intervals.
 
 ## Features
 
@@ -45,6 +46,7 @@ Open a terminal and navigate to the project directory.
 Edit the client.py file to configure the SNMP client:
 
 Set the server IP address, port, community string, and file path for the CSV file.
+
 Start the SNMP client by running the following command:
 
 # SHELL
@@ -54,7 +56,9 @@ python client.py
 Repeat the above steps for each client you want to monitor.
 
 # Customization
-You can customize the SNMP metrics retrieved by modifying the get_metrics() function in server.py and client.py. Add or remove ObjectType entries as per your requirements.
+You can customize the SNMP metrics retrieved by modifying the get_metrics() function in server.py and client.py. 
+
+Add or remove ObjectType entries as per your requirements.
 
 The CSV file headers and structure can be modified by updating the csv_headers list in the SNMPMetricsServer class in server.py and the fieldnames parameter in the SNMPMetricsClient class in client.py.
 
