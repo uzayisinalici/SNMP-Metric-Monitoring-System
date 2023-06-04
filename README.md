@@ -62,5 +62,3 @@ Add or remove ObjectType entries as per your requirements.
 
 The CSV file headers and structure can be modified by updating the csv_headers list in the SNMPMetricsServer class in server.py and the fieldnames parameter in the SNMPMetricsClient class in client.py.
 
-# License
-This project is licensed under the MIT License.
